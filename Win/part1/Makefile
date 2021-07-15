@@ -8,7 +8,7 @@ LINK=link.exe
 CFLAGS=-c -I. -IC:\boost_1_76_0\ -IC:\Python\Python39\include\ /DC_API_EXPORT
 
 #Win32
-#LFLAGS= /DLL
+#LFLAGS= /DLL /LIBPATH:C:\Python\Python39\libs\
 #Win64
 LFLAGS= /DLL /MACHINE:X64 /LIBPATH:C:\Python\Python39\libs\
 
